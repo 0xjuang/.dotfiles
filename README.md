@@ -1,6 +1,5 @@
 # dotfiles · @0xjuang
-
-Personal dotfiles for managing a reproducible, minimal, and secure development environment across macOS and Linux systems.
+🗃 Reproducible system config for macOS & Linux – tuned for clarity, security, and DevOps workflows.
 
 ![version](https://img.shields.io/badge/version-v1.0.0-blue)
 
