@@ -2,21 +2,23 @@
 
 Personal dotfiles for managing a reproducible, minimal, and secure development environment across macOS and Linux systems.
 
+![version](https://img.shields.io/badge/version-v1.0.0-blue)
+
 ---
 
 ## 📁 Included Configs
 
-| File / Folder             | Purpose                                      |
-|---------------------------|----------------------------------------------|
-| `.zshrc`                  | Core shell config                            |
-| `.zsh_aliases`            | Modular aliases for common commands          |
-| `gg3.zsh-theme`           | Custom ZSH prompt theme                      |
-| `.vimrc`                  | Vim editor preferences                       |
-| `.gitconfig`              | Git CLI configuration (user & aliases)       |
-| `ssh_config.example`      | Redacted SSH config template for GitHub use  |
-| `.vscode/settings.json`   | Visual Studio Code settings                  |
-| `.vscode/extensions.list` | VS Code extensions for tooling and workflow  |
-| `install.sh`              | Setup script to symlink all configs          |
+| File / Folder             | Purpose                                               |
+|---------------------------|--------------------------------------------------------|
+| `.zshrc`                  | Core shell config                                     |
+| `.zsh_aliases`            | Modular aliases for common commands                   |
+| `gg3.zsh-theme`           | Custom ZSH prompt theme                               |
+| `.vimrc`                  | Vim editor preferences                                |
+| `.gitconfig`              | Git CLI configuration (user & aliases)                |
+| `ssh_config.example`      | Redacted SSH config template for GitHub use           |
+| `.vscode/settings.json`   | Visual Studio Code settings                           |
+| `.vscode/extensions.list` | VS Code extensions for tooling and workflow           |
+| `install.sh`              | Setup script to symlink all configs into `$HOME`      |
 
 ---
 
@@ -40,15 +42,7 @@ chmod +x install.sh
 ./install.sh
 ```
 
-This will backup your existing configs and symlink these dotfiles into your `$HOME` directory.
-
----
-
-## 📦 Requirements
-
-- ZSH (v5+)
-- [Oh My Zsh](https://ohmyz.sh)
-- Powerline-compatible font (for gg3.zsh-theme)
+This will back up your existing configs and symlink these dotfiles into your `$HOME` directory.
 
 ---
 
@@ -77,4 +71,3 @@ Systems Engineer · DevOps · Infrastructure-as-Code · CEH Candidate
 ---
 
 _Curated for clarity, security, and reproducibility._
-
