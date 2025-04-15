@@ -1,0 +1,19 @@
+# GitHub: GG3-DevNet identity
+Host github.com-gg3-dev
+  HostName github.com
+  User git
+  IdentityFile ~/.ssh/key.gg3.git.gg3-dev.mac
+  IdentitiesOnly yes
+
+# GitHub: 0xjuang identity
+Host github.com-0xjuang
+  HostName github.com
+  User git
+  IdentityFile ~/.ssh/key.gg3.git.0xjuang.mac
+  IdentitiesOnly yes
+
+# Example of internal (redacted) hosts – remove or adapt in private use
+# Host internal-host
+#   HostName <REDACTED>
+#   User <your-username>
+#   IdentityFile ~/.ssh/key.gg3.internal

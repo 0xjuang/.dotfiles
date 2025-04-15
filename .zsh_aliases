@@ -1,0 +1,67 @@
+# ~/.zsh_aliases
+
+# ------------------------------
+# Basic Quality-of-Life Aliases
+# ------------------------------
+alias ll='ls -lah'
+alias la='ls -A'
+alias l='ls -CF'
+alias cls='clear'
+alias c='clear'
+alias lll='ls -laSh'
+
+# ------------------------------
+# Navigation
+# ------------------------------
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+alias ~='cd ~'
+
+# ------------------------------
+# Git Shortcuts
+# ------------------------------
+alias gs='git status'
+alias ga='git add'
+alias gc='git commit -m'
+alias gp='git push'
+alias gl='git pull'
+alias gd='git diff'
+alias gco='git checkout'
+
+# ------------------------------
+# Dotfiles / Config
+# ------------------------------
+alias dot='cd ~/.dotfiles'
+alias zshconfig='nvim ~/.zshrc'
+alias aliases='nvim ~/.zsh_aliases'
+
+# ------------------------------
+# Networking & Tools
+# ------------------------------
+alias ports='lsof -i -P -n'
+alias ipinfo='ip a'
+alias pingg='ping 8.8.8.8'
+
+# ------------------------------
+# System & Updates
+# ------------------------------
+alias update='sudo apt update && sudo apt upgrade -y'
+alias reboot='sudo reboot'
+alias shutdown='sudo shutdown now'
+alias 1up='brew update && brew upgrade && brew cleanup'
+
+# ------------------------------
+# SSH Shortcuts (GG3)
+# ------------------------------
+alias dev='ssh gg3.dev'
+alias rock='ssh gg3.rock'
+alias sec='ssh gg3.kali'
+alias prod='ssh gg3.prod'
+alias xoa='ssh gg3.xoa'
+
+# ------------------------------
+# Custom Branding (GG3 Style)
+# ------------------------------
+alias gg3='echo "Powered by GG3-DevNet 💻"'
+

@@ -1,0 +1,20 @@
+[user]
+  name = Juan Garcia
+  email = you@example.com  # Replace with your real email or GitHub noreply if needed
+
+[color]
+  ui = auto
+
+[alias]
+  st = status
+  co = checkout
+  br = branch
+  cm = commit
+  lg = log --oneline --graph --decorate --all
+
+[core]
+  editor = vim
+
+[init]
+  defaultBranch = main
+
